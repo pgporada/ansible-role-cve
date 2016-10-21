@@ -1,0 +1,7 @@
+.vagrant
+test/*.retry
+test/roles/
+.kitchen/
+.vagrant/
+roles/
+Gemfile.lock

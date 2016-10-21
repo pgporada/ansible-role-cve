@@ -1,0 +1,10 @@
+---
+- name: Check kernel version
+  shell: "uname -a | grep elrepo"
+  register: elrepo_check
+  ignore_errors: True
+  changed_when: False
+
+- name: Dirty COW
+  include: cve-2016-5159.yml
+  when: cve_2016_5159 is defined and cve_2016_5159 and elrepo_check.rc != 0
