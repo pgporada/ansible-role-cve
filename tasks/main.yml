@@ -6,5 +6,5 @@
   changed_when: False
 
 - name: Dirty COW
-  include: cve-2016-5195.yml
+  include: CVE-2016-5195.yml
   when: cve_2016_5195 is defined and cve_2016_5195 and elrepo_check.rc != 0
