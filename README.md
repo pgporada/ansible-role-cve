@@ -6,6 +6,8 @@ This role checks CVEs
 # Role Variables
 
 
+cve_2016_5195: true
+
 - - - -
 
 # Example Playbook
