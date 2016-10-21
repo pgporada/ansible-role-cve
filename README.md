@@ -5,8 +5,9 @@ This role checks CVEs
 
 # Role Variables
 
+Dirty COW vuln. http://dirtycow.ninja
 
-cve_2016_5195: true
+        cve_2016_5195: false
 
 - - - -
 

@@ -1,6 +1,6 @@
 ---
 - name: Check kernel version
-  shell: "uname -a | grep elrepo"
+  shell: "uname -r | grep elrepo"
   register: elrepo_check
   ignore_errors: True
   changed_when: False
