@@ -5,3 +5,4 @@ test/roles/
 .vagrant/
 roles/
 Gemfile.lock
+.ansible/
