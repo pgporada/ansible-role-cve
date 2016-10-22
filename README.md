@@ -41,9 +41,14 @@ bundle exec kitchen destroy
 ```
 
 - - - -
-# Author Information and License
+
+# Author Information
 
 Phil Porada
+
+- - - -
+
+# License
 
 MIT
 
