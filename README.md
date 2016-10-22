@@ -1,6 +1,7 @@
 # Ansible Role: CVE
 [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-cve-blue.svg)](https://galaxy.ansible.com/pgporada/cve/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
+
 This role mitigates/patches the defined CVEs.
 
 - - - -
