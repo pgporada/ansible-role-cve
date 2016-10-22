@@ -8,10 +8,15 @@ galaxy_info:
   min_ansible_version: 2.1
   license: MIT
   platforms:
-  - name: EL
-    versions:
-    - 6
-    - 7
+    - name: EL
+      versions:
+      - 6
+      - 7
   catagories:
-    - cve:dirtycow:vulnerability:mitigation
+    - system
+    - web
+  galaxy_tags:
+    - cve
+    - mitigation
+    - dirtycow
 
