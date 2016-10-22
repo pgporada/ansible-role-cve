@@ -28,7 +28,7 @@ Dirty COW vuln. http://dirtycow.ninja
 Before submitting a PR, please create a test and run it through test-kitchen.
 
 ```
-git clone git@bitbucket.org:greenlancer/ansible-role-cve.git
+git clone git@github.com:pgporada/ansible-role-cve.git
 bundle install
 bundle exec kitchen create
 bundle exec kitchen converge
