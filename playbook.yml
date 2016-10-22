@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
-  connection: local
+- hosts: tag_TAGHEADER_yourtag
   become: true
   become_method: sudo
 
