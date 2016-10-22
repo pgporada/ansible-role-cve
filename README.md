@@ -18,8 +18,12 @@ Dirty COW vuln. http://dirtycow.ninja
   connection: local
   become: true
   become_method: sudo
+
+  vars:
+    cve_2016_5195: true
+
   roles:
-    - ansible-role-cve
+    - ../ansible-role-cve
 ```
 
 - - - -
