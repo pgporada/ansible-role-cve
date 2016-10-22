@@ -41,7 +41,10 @@ bundle exec kitchen destroy
 ```
 
 - - - -
-# License
+# Author Information and License
+
+Phil Porada
 
 MIT
+
 (c) 2016 GreenLancer.com
