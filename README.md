@@ -1,5 +1,5 @@
 # Ansible Role: CVE
-This role checks CVEs
+This role mitigates CVEs that we have coded for.
 
 - - - -
 
