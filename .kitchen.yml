@@ -13,8 +13,7 @@ provisioner:
   ansible_verbosity: 2
   ansible_verbose: true
   ansible_diff: true
-  require_chef_for_busser: false
-  require_ruby_for_busser: true
+  require_chef_for_busser: true
   update_package_repos: false
 
 platforms:
