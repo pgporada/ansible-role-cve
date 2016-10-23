@@ -1,3 +1,28 @@
+Version 0.2.0:
+ - Spacing
+ - Added tests
+ - Merge branch 'master' of github.com-pgporada:pgporada/ansible-role-cve
+ - Removed duplicate file
+ - Update README.md
+ - Update README.md
+ - Update CVE-2016-5195.yml
+ - Added spacing
+ - Updated readme
+ - Added badge
+ - Meta updates
+ - Fixing categories
+ - Updated readme
+ - Updated readme
+ - Updated meta
+ - updated readme
+ - Fixed tags
+ - Added license and updates
+ - Updates
+ - Updates
+ - Updated readme
+ - Playbook is suitable to run now
+ - Updates
+
 Version 0.1.0
  - Idempotency hooray
  - Removed a line
