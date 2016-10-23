@@ -7,17 +7,23 @@ driver:
 provisioner:
   hosts: test-kitchen
   name: ansible_playbook
-  require_ansible_repo: false
-  require_ansible_omnibus: true
+  require_ansible_repo: true
+  ansible_yum_repo: epel
+  require_ansible_omnibus: false
   ansible_verbosity: 2
   ansible_verbose: true
   ansible_diff: true
-  require_chef_for_busser: true
+  require_chef_for_busser: false
+  require_ruby_for_busser: true
   update_package_repos: false
-  requirements_path: test/integration/default/requirements.yml
 
 platforms:
-  - name: centos/7
+  - name: centos-7
+    driver:
+      box: centos/7
+      provision: true
+      vagrantfiles:
+        - .vagrant.rb
 
 suites:
   - name: default
