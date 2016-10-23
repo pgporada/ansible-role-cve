@@ -1,0 +1,8 @@
+---
+- hosts: test-kitchen
+
+  vars:
+    cve_2016_5195: true
+
+  roles:
+    - ansible-role-cve

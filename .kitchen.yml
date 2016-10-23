@@ -1,0 +1,23 @@
+---
+driver:
+  name: vagrant
+  use_sudo: false
+  forward_agent: true
+
+provisioner:
+  hosts: test-kitchen
+  name: ansible_playbook
+  require_ansible_repo: false
+  require_ansible_omnibus: true
+  ansible_verbosity: 2
+  ansible_verbose: true
+  ansible_diff: true
+  require_chef_for_busser: true
+  update_package_repos: false
+  requirements_path: test/integration/default/requirements.yml
+
+platforms:
+  - name: centos/7
+
+suites:
+  - name: default
