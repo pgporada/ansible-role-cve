@@ -1,6 +1,6 @@
 # Ansible Role: CVE
 [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-cve-blue.svg)](https://galaxy.ansible.com/pgporada/cve/)
-[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.txt)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
 
 This role mitigates/patches the defined CVEs.
 
@@ -8,7 +8,7 @@ This role mitigates/patches the defined CVEs.
 
 # Role Variables
 
-Dirty COW vuln. http://dirtycow.ninja. Defaults to false.
+Dirty COW vuln. http://dirtycow.ninja. Defaults to false. This mitigation will need to be run everytime the server it has been applied on restarts.
 
         cve_2016_5195: false
 
